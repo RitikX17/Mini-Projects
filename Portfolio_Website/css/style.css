@@ -107,7 +107,7 @@ img {
 nav {
   font-family: var(--mono);
   font-size: 80%;
-  padding: 1rem;
+  padding: 4rem 1rem;
 }
 
 nav h1 a {
@@ -223,16 +223,16 @@ footer ul {
   font-size: 1rem;
 }
 #projects img {
- margin: 2rem 0 4rem 0;
- border-left: 1px solid var(--aqua);
- border-top: 1px solid var(--aqua);
- border-radius: 25px;
- padding: 1rem;
+  margin: 2rem 0 4rem 0;
+  border-left: 1px solid var(--aqua);
+  border-top: 1px solid var(--aqua);
+  border-radius: 25px;
+  padding: 1rem;
 }
 @media (min-width: 850px) {
   article {
     display: grid;
-    grid-template-columns: repeat(10,1fr);
+    grid-template-columns: repeat(10, 1fr);
     gap: 1rem;
   }
   #projects {
@@ -261,7 +261,7 @@ footer ul {
     grid-column: 6/11;
     grid-row: 1/2;
   }
-  
+
   #projects .reverse ul {
     justify-content: flex-start;
   }
